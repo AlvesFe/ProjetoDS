@@ -1,0 +1,3 @@
+CREATE DATABASE ProjetoDS;
+
+USE ProjetoDS;
