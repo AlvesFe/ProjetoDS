@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace DTO_ProjetoDS_2020
 {
-    public class Class1
+    public class DTO_Login
     {
-
+        public int idUsuario { get; set; }
+        public string Usuario { get; set; }
+        public string Senha { get; set; }
     }
 }

@@ -41,12 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BLL_Cadastro.cs" />
+    <Compile Include="BLL_Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL_ProjetoDS_2020\DAL_ProjetoDS_2020.csproj">
-      <Project>{d8c4c753-78c6-40fd-bae8-560b3c5ce765}</Project>
+      <Project>{8675d3ff-227f-4a5f-983b-b4da5072c194}</Project>
       <Name>DAL_ProjetoDS_2020</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO_ProjetoDS_2020\DTO_ProjetoDS_2020.csproj">

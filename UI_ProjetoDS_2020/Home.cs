@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace UI_ProjetoDS_2020
 {
     public partial class Home : Form
@@ -17,14 +18,20 @@ namespace UI_ProjetoDS_2020
             InitializeComponent();
         }
 
-        private void btnAcessar_Click(object sender, EventArgs e)
+        private void btn_login_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void btn_cadastro_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Cadastro cadastro = new Cadastro();
+            cadastro.ShowDialog();
+            this.Close();
         }
     }
 }
